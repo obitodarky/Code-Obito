@@ -1,2 +1,4 @@
 # Code-Obito
-A website for trying out php concepts with inbuilt compiler 
+A website where people can code on PHP/MYSQL online without a compiler
+It also is a learning process of PHP , just like w3schools.
+But this website can actually let you compile your php codes instead of w3schools
