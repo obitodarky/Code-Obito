@@ -47,9 +47,9 @@
 		http://opensource.org/licenses/MIT  The MIT License (MIT)		
 -->
 <script src="//phpfiddle.org/deposit/widget_001.php
-		?widget_width_percentage=60
+		?widget_width_percentage=30
 		&widget_height_pixels=200
-		&editor_width_percentage=50
+		&editor_width_percentage=62
 		&editor_placeholder=Enter PHP code here..."
 	type="text/javascript">
 </script>
