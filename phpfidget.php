@@ -4,16 +4,31 @@
 
 <!-- JavaScript libraries of PhpFiddle Widgets -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<link type="text/css" href="//phpfiddle.org/js/codemirror5.21.1/lib/codemirror.css" rel="stylesheet">
-<link type="text/css" href="//phpfiddle.org/js/codemirror5.21.1/addon/pf/css_set.css" rel="stylesheet">
+<link type="text/css" href="1.css" rel="stylesheet">
+<link type="text/css" href="2.css" rel="stylesheet">
 <script type="text/javascript" src="//phpfiddle.org/js/codemirror5.21.1/lib/codemirror.js"></script>
 <script type="text/javascript" src="//phpfiddle.org/js/codemirror5.21.1/mode/pf/allmixed.min.js"></script>
 <script type="text/javascript" src="//phpfiddle.org/js/codemirror5.21.1/addon/pf/js_set.min.js"></script>
 <script type="text/javascript" src="//phpfiddle.org/js/codemirror5.21.1/addon/pf/js_set_ext.min.js"></script>
+<style>
+img {
+	float:right;
+	height:0;
+}
 
+#runcode{
+	margin-left:0;
+	    margin-right: 157px;
+}
+#clearview{
+	margin-left:0;
+}
+
+</style>
 </head>
-</html>
-<body>
+
+<body id="dev">
+
 <!--	
 	Run mixed code widget
 	
@@ -46,13 +61,17 @@
 	License
 		http://opensource.org/licenses/MIT  The MIT License (MIT)		
 -->
+<table align="right">
 <script src="//phpfiddle.org/deposit/widget_001.php
-		?widget_width_percentage=30
-		&widget_height_pixels=200
-		&editor_width_percentage=62
+		?widget_width_percentage=60
+		&widget_height_percentage=20
+		&editor_width_percentage=60
 		&editor_placeholder=Enter PHP code here..."
 	type="text/javascript">
 </script>
-<div id="phpfiddle_widget_001"></div>
+</table>
+
+<div id="phpfiddle_widget_001" ></div>
 
 </body>
+</html>
