@@ -30,9 +30,7 @@ a{
 <?php 
 	require "header-footer-widget/header.php";
 ?>
-The topics go here
-<br> <br> <br> <br>
-
+<h3>Sub Topic</h3>
 <nav>
 <?php
 	require "header-footer-widget/phpwidget.php";
