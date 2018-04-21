@@ -19,7 +19,7 @@ nav ul {
     padding: 0;
 }
    
-nav ul a {
+a{
     text-decoration: none;
 }
 
@@ -28,14 +28,14 @@ nav ul a {
 </head>
 <body id="fg">
 <?php 
-	require "header.php";
+	require "header-footer-widget/header.php";
 ?>
 The topics go here
 <br> <br> <br> <br>
 
 <nav>
 <?php
-	require "phpfidget.php";
+	require "header-footer-widget/phpfidget.php";
 
 ?>
 </nav>
@@ -59,7 +59,7 @@ The topics go here
 <footer>
 <?php
 
-    require "footer.php";
+    require "header-footer-widget/footer.php";
 
 ?>
 
