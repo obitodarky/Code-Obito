@@ -5,7 +5,9 @@
 <style>
 
 
-
+body{
+    font-family: "Calibri";
+}
 
 nav {
     float: right;
@@ -20,8 +22,12 @@ nav ul {
 }
    
 a{
-    text-decoration: none;
+   text-decoration: none;
 }
+a:active{
+    color: -webkit-link;
+}
+
 
 
 </style>
