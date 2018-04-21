@@ -35,7 +35,7 @@ The topics go here
 
 <nav>
 <?php
-	require "header-footer-widget/phpfidget.php";
+	require "header-footer-widget/phpwidget.php";
 
 ?>
 </nav>
