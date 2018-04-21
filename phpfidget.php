@@ -4,8 +4,8 @@
 
 <!-- JavaScript libraries of PhpFiddle Widgets -->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<link type="text/css" href="1.css" rel="stylesheet">
-<link type="text/css" href="2.css" rel="stylesheet">
+<link type="text/css" href="css/1.css" rel="stylesheet">
+<link type="text/css" href="css/2.css" rel="stylesheet">
 <script type="text/javascript" src="//phpfiddle.org/js/codemirror5.21.1/lib/codemirror.js"></script>
 <script type="text/javascript" src="//phpfiddle.org/js/codemirror5.21.1/mode/pf/allmixed.min.js"></script>
 <script type="text/javascript" src="//phpfiddle.org/js/codemirror5.21.1/addon/pf/js_set.min.js"></script>
