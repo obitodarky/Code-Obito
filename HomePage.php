@@ -43,23 +43,24 @@ a:active{
 
 ?>
 </nav>
-<a href=""> 1</a><br>
-<a href=""> 2</a><br>
-<a href=""> 3</a><br>
-<a href=""> 4</a><br>
-<a href=""> 5</a><br>
-<a href=""> 6</a><br>
-<a href=""> 7</a><br>
-<a href=""> 8</a><br>
-<a href=""> 9</a><br>
-<a href=""> 10</a><br>
-<a href=""> 11</a><br>
-<a href=""> 12</a><br>
-<a href=""> 13</a><br>
-<a href=""> 14</a><br>
-<a href=""> 15</a><br>
+<a href="/topics/"> Hello World</a><br>
+<a href="/topics/"> Variables</a><br>
+<a href="topics/"> Strings</a><br>
+<a href="topics/"> Constants</a><br>
+<a href="topics/"> Operators</a><br>
+<a href="topics/"> Control Statements and Loops</a><br>
+<a href="topics/"> Arrays</a><br>
+<a href="topics/"> User Input</a><br>
+<a href="topics/"> Functions </a><br>
+<a href="topics/"> Static and Global </a><br>
+<a href="topics/"> Super Globals </a><br>
+<!-- Following topics are not required
+<a href="topics/"> </a><br>
+<a href="topics/"> 13</a><br>
+<a href="topics/"> 14</a><br>
+<a href="topics/"> 15</a><br>
 <br><br><br><br>
-
+-->
 <footer>
 <?php
 
