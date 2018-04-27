@@ -1,6 +1,8 @@
 
 <?php
+require "../header-footer-widget/header.php";
 session_start();
+
 ?>
 
 <html>
@@ -32,7 +34,10 @@ if($okay){
 
 
 
-	echo "hello " .$_SESSION["email"];
+	echo "hello " .$_SESSION["email"]."<br>";
+	echo "You have logged in on ".date("l jS \of F Y h:i:s A") . "<br>";
+	echo "Please close the browser to disconnect your session";
+
 
 
 	session_unset();

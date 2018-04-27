@@ -61,7 +61,7 @@ require "db_config.php";
 	if($okay)
 	{
 		mysqli_select_db($dbc,"obito");
-		$query="insert into register values(1,\"$name\",\" test\",\"1998/04/03\",\"email\",\"pass\",\"male\")";
+		$query="insert into register values(1,\" $name \",\" test\",\"1998/04/03\",\"email\",\"pass\",\"male\")";
 		if(mysqli_query($dbc,$query)){
 			echo "Registered";
 		}
