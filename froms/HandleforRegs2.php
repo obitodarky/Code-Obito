@@ -45,8 +45,8 @@ echo"<option value=\"$i\">$i</option><br>";
 }
 ?>
 </select>
-Enter Email ID<input type="email" name="Email"> </input>
-Enter Password<input type="Password" name="Password"> </input>
+Enter Email ID<input type="text" name="email"> </input>
+Enter Password<input type="password" name="password"> </input>
 Confirm Password<input type="password" name="cpassword"> </input>
 
 
