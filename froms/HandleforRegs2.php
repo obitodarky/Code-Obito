@@ -1,13 +1,12 @@
+
 <html>
 <head>
 <title> Registration </title>
 <body align="center">
 <pre>
 <form action="HandleforRegs.php" method="POST">
-<form action ="SessionForRegs.php" method="POST">
-<form action ="StickyForRegs.php" method="POST">
 <h2> Registration Form </h2>
-Enter UserID<Input type"name" name="R_ID" </input>
+Enter UserID<input type"name" name="R_ID"> </input>
 Enter Name<input type="name" name="name"> </input>
 Enter Address<input type="name" name="address"> </input>
 <input type="Radio" name="sex" required value='male' size='35'> Male

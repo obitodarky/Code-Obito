@@ -1,13 +1,7 @@
 <!DOCTYPE HTML 5>
 <HTML>
 <head> <title> Handle Registration </title>
-<style type="text/css" media="screen">
-.error {color:red;}
-</style>
 
-<style type="text/css" media="screen">
-.success {color:green;}
-</style>
 </head>
 
 <body align="center">
