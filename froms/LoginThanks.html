@@ -119,6 +119,65 @@ h2{
   font-size: 40px;
 }
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+<?php
+    function validate_input($data)
+    {
+      $data = trim($data);
+      $data = stripslashes($data);
+      $data = htmlspecialchars($data);
+      return $data;
+    }
+    $fname = $email = $comment = "";
+    
+    if ($_SERVER['REQUEST_METHOD'] == "POST")
+    {
+  if(empty($_POST["R_ID"]))
+      {
+        $okay=false;
+        $okay=false;
+        echo "<br> Please enter ID";
+      }
+  else
+      {
+        $R_ID = validate_input ($_POST['R_ID']);
+      }
+      
+  if(empty($_POST["name"]))
+      {
+        $okay=false;
+        echo "<br> Please enter name";
+      }
+  else
+      {
+        $name = validate_input ($_POST['name']);
+      }
+      
+      
+  if(empty($_POST["email"]))
+      {
+        $okay=false;
+        echo "<br> Please enter Email";
+      }
+  else
+      {
+        $email = validate_input ($_POST['email']);
+      }
+      
+      
+  if(empty($_POST["password"]))
+      {
+        $okay=false;
+        echo "<br> Please enter Password";
+      }
+  else
+      {
+        $name = validate_input ($_POST['password']);
+      }
+    
+      echo "<br> Hey $name! <br> Your ID is $R_ID <br> Your email id is $email <br>" ;
+      
+    } ?>
+
 @media (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
         width: 100%;

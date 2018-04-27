@@ -1,3 +1,6 @@
+<?php
+  require "../header-footer-widget/header.php"
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,24 +12,21 @@
 
 
   <form action="SessionForRegs.php" method="POST">
-      
-         
-        
-         <input type="text"  name="userid">
-    
-    <input type="email" " name="email">
+ 
+    Email :<input type="email" " name="email">
 
-		  <input type="password" name="password">
+		Password :<input type="password" name="password">
         
      
-  <center> 
+
   <button class="button" style="vertical-align: left" input type="submit" value="SUBMIT"><span>Login</span></button>
  
   <button class="button" style="vertical-align: left" input type='reset' value='RESET'><span>Reset </span></button>
-  </center>
 
   </form>
-
+<?php 
+  require "../header-footer-widget/footer.php";
+?>
 
 </body>
 </html>

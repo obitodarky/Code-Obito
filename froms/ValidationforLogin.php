@@ -16,7 +16,7 @@
 				$okay=false;
 				echo "<br> Please enter ID";
 			}
-			else
+	else
 			{
 				$R_ID = validate_input ($_POST['R_ID']);
 			}
@@ -26,7 +26,7 @@
 				$okay=false;
 				echo "<br> Please enter name";
 			}
-			else
+	else
 			{
 				$name = validate_input ($_POST['name']);
 			}
@@ -37,7 +37,7 @@
 				$okay=false;
 				echo "<br> Please enter Email";
 			}
-			else
+	else
 			{
 				$email = validate_input ($_POST['email']);
 			}
@@ -48,7 +48,7 @@
 				$okay=false;
 				echo "<br> Please enter Password";
 			}
-			else
+	else
 			{
 				$name = validate_input ($_POST['password']);
 			}
