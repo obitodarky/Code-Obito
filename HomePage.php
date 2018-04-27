@@ -60,7 +60,6 @@ a:active{
 <a href=""> 14</a><br>
 <a href=""> 15</a><br>
 <br><br><br><br>-->
-<pre>
 1)Echo :
 
 Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
