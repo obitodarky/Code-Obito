@@ -1,3 +1,4 @@
+<?php require "db_config.php" ?>
 <!DOCTYPE HTML 5>
 <HTML>
 <head> <title> Handle Registration </title>
@@ -56,8 +57,11 @@
 	
 	if($okay)
 	{
-		echo '<p class="Success"> Congrats <br> You have been successfully registered </p>';
-		
+		mysqli_select_db($dbc,"obito");
+		$query="insert into register values(1,\"Harsh Mehta\",\" test\",\"1998/04/03\",\"email\",\"pass\",\"male\")";
+		if(mysqli_query($dbc,$query)){
+			echo "Registered";
+		}
 	}
 	}
 	?>
