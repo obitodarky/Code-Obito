@@ -1,6 +1,15 @@
 
 <html>
-<head><style type="text/css">
+<head><title><?php
+	if(defined('TITLE')){
+		echo TITLE;
+	}
+	else
+		echo "CodeObito";
+?>
+	
+</title><style type="text/css">
+
 a{
     text-decoration: none;
 }

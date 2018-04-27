@@ -1,7 +1,9 @@
+<?php 
+    define('TITLE',"ProjectObito");
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
 <style>
 
 
@@ -29,7 +31,6 @@ a:active{
 }
 
 
-
 </style>
 </head>
 <body id="fg">
@@ -43,7 +44,7 @@ a:active{
 
 ?>
 </nav>
-<a href=""> 1</a><br>
+<!--<a href=""> 1</a><br>
 <a href=""> 2</a><br>
 <a href=""> 3</a><br>
 <a href=""> 4</a><br>
@@ -58,8 +59,17 @@ a:active{
 <a href=""> 13</a><br>
 <a href=""> 14</a><br>
 <a href=""> 15</a><br>
-<br><br><br><br>
+<br><br><br><br>-->
+<pre>
+1)Echo :
 
+Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
+Example:
+<?php
+echo "Hello world!<br>";
+//This is how you insert a single line comment
+echo "You can also <br> add html tags in echo";
+?>
 <footer>
 <?php
 
