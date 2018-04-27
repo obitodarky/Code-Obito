@@ -1,5 +1,5 @@
 <?php 
-    define('TITLE',"ProjectObito");
+    define('TITLE',"ProjectObito:Home");
 ?>
 <!DOCTYPE html>
 <html>

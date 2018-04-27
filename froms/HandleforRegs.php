@@ -1,4 +1,7 @@
-<?php require "db_config.php" ?>
+<?php 
+require "../header-footer-widget/header.php";
+require "db_config.php";
+ ?>
 <!DOCTYPE HTML 5>
 <HTML>
 <head> <title> Handle Registration </title>
@@ -10,8 +13,8 @@
 	if($_SERVER['REQUEST_METHOD']=="POST")
 	{
 	
+	$name=$_POST['R_ID'];
 	$okay=TRUE;
-	
 	if(empty($_POST['R_ID']))
 	{
 		print'<p class="error"> Please enter ID</p>';
@@ -58,7 +61,7 @@
 	if($okay)
 	{
 		mysqli_select_db($dbc,"obito");
-		$query="insert into register values(1,\"Harsh Mehta\",\" test\",\"1998/04/03\",\"email\",\"pass\",\"male\")";
+		$query="insert into register values(1,\"$name\",\" test\",\"1998/04/03\",\"email\",\"pass\",\"male\")";
 		if(mysqli_query($dbc,$query)){
 			echo "Registered";
 		}

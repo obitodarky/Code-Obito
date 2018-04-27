@@ -14,7 +14,7 @@ if (!$dbc)
 	else
 		{
  
-		echo "<br>Connection successful";
+		//echo "<br>Connection successful";
 		}
 
 ?>
