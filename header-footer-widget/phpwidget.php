@@ -72,6 +72,8 @@ img {
 </table>
 
 <div id="phpfiddle_widget_001" ></div>
-
+<form action ="..\cgi_tester.py" method="GET">
+	<input type="submit" value="submit">
+</form>>
 </body>
 </html>
