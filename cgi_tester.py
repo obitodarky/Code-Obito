@@ -3,19 +3,18 @@ __author__ = "Harsh Mehta"
 import cgi
 import os
 
-def Cgi():{
-    form= cgi.FieldStorage()
-    term= form.getvalue('submit')
+form = cgi.FieldStorage()
+term= form.getvalue('submit')
 
-    print ("Content-type: text/html");
-    print ()
-    if (os.environ['REQUEST_METHOD']== 'POST'):{
+print ("Content-type: text/html");
+print ()
+if (os.environ['REQUEST_METHOD']== 'POST'):{
 
-        print(""" <html> <head> </head> <body>
-        Hi
-    <body></html>""")    
-        return 1        
-    }
+    print(""" <html> <head> </head> <body>
+    Hi
+<body></html>""")
+
 }
+
 
     
