@@ -3,7 +3,7 @@ __author__ = "Harsh Mehta"
 import cgi
 import os
 
-def SubmitCgi():{
+def Cgi():{
     form= cgi.FieldStorage()
     term= form.getvalue('submit')
 
@@ -14,7 +14,7 @@ def SubmitCgi():{
         print(""" <html> <head> </head> <body>
         Hi
     <body></html>""")    
-        
+        return 1        
     }
 }
 
