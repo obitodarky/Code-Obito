@@ -7,9 +7,11 @@ term= form.getvalue('submit')
 
 print ("Content-type: text/html")
 print ("");
-print ("""<html>
-<head><title>My first Python CGI app</title></head>
-<body>
-<p>Hello, 'world'!</p>
-</body>
-</html>""")
+print ("<html>")
+print("<body>")
+if(term=None):
+    print ("Term is none")
+print("</html>")
+
+
+    
