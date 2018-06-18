@@ -6,15 +6,16 @@ import os
 form = cgi.FieldStorage()
 term= form.getvalue('submit')
 
-print ("Content-type: text/html");
+print ("Content-type: text/html")
 print ()
-if (os.environ['REQUEST_METHOD']== 'POST'):{
 
-    print(""" <html> <head> </head> <body>
-    Hi
-<body></html>""")
+def cgi():
+    if (os.environ['REQUEST_METHOD']== 'POST'):
+        return 0
 
-}
+    else:
+        return 1
+
 
 
     
