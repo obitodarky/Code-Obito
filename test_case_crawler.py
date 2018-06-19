@@ -9,10 +9,12 @@ def value_getter():
     source = requests.get(url)
     code_text= source.text
     soup= BeautifulSoup(code_text)
-    for val in soup.findAll('iframe', {'id': 'resultview'}):
+    for val in soup.findAll('body'):
         value= val.get('body')
-        return value
+        print(val.string)
+        print(value)
+
 
 if(cgi_tester.cgi()==0):
-    print(value_getter())
+    value_getter()
 
