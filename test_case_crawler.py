@@ -9,10 +9,9 @@ def value_getter():
     source = requests.get(url)
     code_text= source.text
     soup= BeautifulSoup(code_text)
-    for val in soup.findAll('body'):
-        value= val.get('body')
+    for val in soup.findAll('h3'):
         print(val.string)
-        print(value)
+        
 
 
 if(cgi_tester.cgi()==0):
