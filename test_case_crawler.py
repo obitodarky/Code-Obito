@@ -11,7 +11,7 @@ def value_getter():
     soup= BeautifulSoup(code_text)
     for val in soup.findAll('h3'):
         print(val.string)
-        
+
 
 
 if(cgi_tester.cgi()==0):
