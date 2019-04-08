@@ -72,6 +72,8 @@ img {
 </table>
 
 <div id="phpfiddle_widget_001" ></div>
-
+<form action ="..\test_case_crawler.py" method="POST">
+	<input type="submit" value="submit">
+</form>
 </body>
 </html>

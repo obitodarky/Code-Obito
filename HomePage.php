@@ -1,7 +1,9 @@
+<?php 
+    define('TITLE',"ProjectObito:Home");
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Test</title>
 <style>
 
 
@@ -29,7 +31,6 @@ a:active{
 }
 
 
-
 </style>
 </head>
 <body id="fg">
@@ -43,6 +44,7 @@ a:active{
 
 ?>
 </nav>
+
 <a href="/topics/"> Hello World</a><br>
 <a href="/topics/"> Variables</a><br>
 <a href="topics/"> Strings</a><br>
@@ -54,13 +56,17 @@ a:active{
 <a href="topics/"> Functions </a><br>
 <a href="topics/"> Static and Global </a><br>
 <a href="topics/"> Super Globals </a><br>
-<!-- Following topics are not required
-<a href="topics/"> </a><br>
-<a href="topics/"> 13</a><br>
-<a href="topics/"> 14</a><br>
-<a href="topics/"> 15</a><br>
-<br><br><br><br>
--->
+
+1)Echo :
+
+Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:
+Example:
+<?php
+echo "Hello world!<br>";
+//This is how you insert a single line comment
+echo "You can also <br> add html tags in echo";
+?>
+
 <footer>
 <?php
 
